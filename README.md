@@ -7,15 +7,15 @@
 [![F-Droid Badge](https://img.shields.io/badge/F--Droid-4848FF?style=flat-square&logo=fdroid)](https://f-droid.org/packages/com.emagleo.browser/)
 [![Latest Release](https://img.shields.io/github/v/release/SenseT8N/Emagleo-Android?style=flat-square&sort=semver&color=6750A4)](https://github.com/SenseT8N/Emagleo-Android/releases/latest)
 
-Emagleo is a privacy-first, free, and open-source (FOSS) web browser for Android that embraces the modern **Material You (Material 3)** design language. Experience a truly native interface that adapts to your device's theme, without compromising speed or security.
+Emagleo is a privacy-first, free, and open-source (FOSS) web browser for Android that embraces the modern **Material You (Material 3)** design language. Built using **Flutter** and **Dart**, it delivers a truly native interface that adapts to your device's theme, without compromising speed or security.
 
 ---
 
 ### ✨ Key Features
 
-* **🎨 Dynamic Theming (Material You):** Emagleo automatically extracts color palettes from your Android wallpaper, applying them to the entire browser interface for a seamless, personalized experience.
+* **🎨 Dynamic Theming (Material You):** Emagleo automatically extracts color palettes from your Android wallpaper, applying them to the entire browser interface for a seamless, personalized experience, thanks to Flutter's UI capabilities.
 * **🛡️ Privacy By Default:** Absolutely **zero telemetry** or tracking. Comes with a powerful, built-in ad and tracker blocker active from the moment you install.
-* **⚙️ Lightweight & Speedy:** Built with minimalism in mind, ensuring a small app size and fast page loads, even on older devices.
+* **⚙️ Lightweight & Speedy:** Built with minimalism in mind, ensuring a small app size and fast page loads across all compatible Android versions.
 * **🧑‍💻 FOSS Commitment:** The entire codebase is auditable and transparently licensed under the **GPLv3**.
 
 ### 📱 Preview
@@ -46,23 +46,34 @@ For the latest stable release or beta versions, you can download the APK directl
 
 ### 🛠️ Building From Source
 
-Emagleo is built primarily using **Kotlin** for the Android application logic and **WebView** components.
+Emagleo is a Flutter project. To build and run the app locally, you need the Flutter SDK and its dependencies.
 
 #### Prerequisites
 
-* Android Studio (Latest Stable Version)
-* Android SDK 34+
-* Java Development Kit (JDK) 17+
+* **Flutter SDK:** [Install Flutter](https://flutter.dev/docs/get-started/install).
+* **Dart SDK** (included with Flutter).
+* **Android Studio / VS Code:** Set up for Flutter development.
 
-#### Steps to Build
+#### Steps to Build (Android)
 
 1.  **Clone the Repository:**
     ```bash
     git clone [https://github.com/SenseT8N/Emagleo-Android.git](https://github.com/SenseT8N/Emagleo-Android.git)
     cd Emagleo-Android
     ```
-2.  **Open in Android Studio:** Open the cloned `Emagleo-Android` directory as an existing project.
-3.  **Run Build:** Sync the Gradle project and run the application on an emulator or physical device using the "Run 'app'" button (the green triangle) in the toolbar.
+2.  **Get Dependencies:** Fetch all required Dart packages.
+    ```bash
+    flutter pub get
+    ```
+3.  **Check Environment:** Verify your setup and connected devices.
+    ```bash
+    flutter doctor
+    ```
+4.  **Run the App:** Launch the app on a connected device or emulator.
+    ```bash
+    flutter run
+    ```
+    Alternatively, open the project in Android Studio or VS Code and click the 'Run' button.
 
 ---
 
