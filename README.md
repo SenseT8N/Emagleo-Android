@@ -2,10 +2,10 @@
 
 **Your browser, Your Rules. The Material You browser built for Android enthusiasts.**
 
-[![GitHub license](https://img.shields.io/github/license/emagleo/emagleo?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/emagleo/emagleo?style=flat-square&color=6750A4)](https://github.com/emagleo/emagleo/stargazers)
+[![GitHub license](https://img.shields.io/github/license/SenseT8N/Emagleo-Android?style=flat-square)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/SenseT8N/Emagleo-Android?style=flat-square&color=6750A4)](https://github.com/SenseT8N/Emagleo-Android/stargazers)
 [![F-Droid Badge](https://img.shields.io/badge/F--Droid-4848FF?style=flat-square&logo=fdroid)](https://f-droid.org/packages/com.emagleo.browser/)
-[![Latest Release](https://img.shields.io/github/v/release/emagleo/emagleo?style=flat-square&sort=semver&color=6750A4)](https://github.com/emagleo/emagleo/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/SenseT8N/Emagleo-Android?style=flat-square&sort=semver&color=6750A4)](https://github.com/SenseT8N/Emagleo-Android/releases/latest)
 
 Emagleo is a privacy-first, free, and open-source (FOSS) web browser for Android that embraces the modern **Material You (Material 3)** design language. Experience a truly native interface that adapts to your device's theme, without compromising speed or security.
 
@@ -13,7 +13,7 @@ Emagleo is a privacy-first, free, and open-source (FOSS) web browser for Android
 
 ### ✨ Key Features
 
-* **🎨 Dynamic Th*eming (Material You):** Emagleo automatically extracts color palettes from your Android wallpaper, applying them to the entire browser interface for a seamless, personalized experience.
+* **🎨 Dynamic Theming (Material You):** Emagleo automatically extracts color palettes from your Android wallpaper, applying them to the entire browser interface for a seamless, personalized experience.
 * **🛡️ Privacy By Default:** Absolutely **zero telemetry** or tracking. Comes with a powerful, built-in ad and tracker blocker active from the moment you install.
 * **⚙️ Lightweight & Speedy:** Built with minimalism in mind, ensuring a small app size and fast page loads, even on older devices.
 * **🧑‍💻 FOSS Commitment:** The entire codebase is auditable and transparently licensed under the **GPLv3**.
@@ -40,7 +40,7 @@ The most secure and transparent way to install Emagleo is via the F-Droid reposi
 
 For the latest stable release or beta versions, you can download the APK directly from our GitHub releases page:
 
-* [**Download Latest APK**](https://github.com/emagleo/emagleo/releases/latest)
+* [**Download Latest APK**](https://github.com/SenseT8N/Emagleo-Android/releases/latest)
 
 ---
 
@@ -58,10 +58,10 @@ Emagleo is built primarily using **Kotlin** for the Android application logic an
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/emagleo/emagleo.git](https://github.com/emagleo/emagleo.git)
-    cd emagleo
+    git clone [https://github.com/SenseT8N/Emagleo-Android.git](https://github.com/SenseT8N/Emagleo-Android.git)
+    cd Emagleo-Android
     ```
-2.  **Open in Android Studio:** Open the cloned `emagleo` directory as an existing project.
+2.  **Open in Android Studio:** Open the cloned `Emagleo-Android` directory as an existing project.
 3.  **Run Build:** Sync the Gradle project and run the application on an emulator or physical device using the "Run 'app'" button (the green triangle) in the toolbar.
 
 ---
@@ -72,14 +72,14 @@ We welcome contributions from the community! Whether you are a developer, a desi
 
 #### How to Contribute:
 
-1.  **Report Bugs:** Found an issue? Please open a new issue on the [GitHub Issue Tracker](https://github.com/emagleo/emagleo/issues).
+1.  **Report Bugs:** Found an issue? Please open a new issue on the [GitHub Issue Tracker](https://github.com/SenseT8N/Emagleo-Android/issues).
 2.  **Suggest Features:** We love new ideas! Submit feature requests on the Issue Tracker.
 3.  **Code Contributions:**
     * Fork the repository.
     * Create a new branch (`git checkout -b feature/AmazingFeature`).
     * Commit your changes (`git commit -m 'Add Amazing Feature'`).
     * Push to the branch (`git push origin feature/AmazingFeature`).
-    * Open a **Pull Request (PR)**.
+    * Open a **Pull Request (PR)** to `SenseT8N/Emagleo-Android`.
 
 
 
